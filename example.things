@@ -1,0 +1,5 @@
+Thing exec:command:hivetemperature [command="ruby /home/pi/hive/hive_get_temperature.rb", interval=15]
+Thing exec:command:hivetarget [command="ruby /home/pi/hive/hive_get_target.rb", interval=15]
+Thing exec:command:hivestatus [command="ruby /home/pi/hive/hive_get_status.rb", interval=15]
+
+

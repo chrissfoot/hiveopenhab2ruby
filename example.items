@@ -1,0 +1,5 @@
+Number Hive_Temperature "Temperature [%.1f °C]" (Living) {channel="exec:command:hivetemperature:output"} 
+
+Number Hive_Target "Target [%.1f °C]" <temperature> {channel="exec:command:hivetarget:output"} 
+
+String Hive_Status "Heating is " <temperature> {channel="exec:command:hivestatus:output"} 
